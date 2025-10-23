@@ -1,0 +1,60 @@
+===============================================
+MON ESPACE CLIENT PRO - INSTALLATION RAPIDE
+===============================================
+
+📦 FICHIER ZIP : mon-espace-client-pro-v1.0.zip
+
+🚀 INSTALLATION EN 5 MINUTES :
+
+1. Extraire le ZIP sur votre hébergement
+2. Ouvrir https://votre-domaine.fr/install.php
+3. Suivre l'assistant d'installation (type WordPress)
+4. Supprimer install.php après installation
+5. Se connecter avec le compte admin créé
+
+===============================================
+
+📋 COMPTES DE DÉMO (si données démo installées) :
+
+ADMIN :
+  Email: admin@cabinet.gp
+  Mot de passe: demo123
+
+COLLABORATEUR :
+  Email: julien.martin@cabinet.gp
+  Mot de passe: demo123
+
+CLIENT :
+  Email: pierre.lafleur@lesoleil.gp
+  Mot de passe: demo123
+
+===============================================
+
+⚙️ CONFIGURATION CRON (IMPORTANT) :
+
+Ajouter dans cPanel > Cron Jobs :
+
+Fréquence: */15 * * * *
+Commande: curl -s "https://votre-domaine.fr/cron.php?token=VOTRE_TOKEN" > /dev/null 2>&1
+
+(Le token est dans le fichier .env généré lors de l'installation)
+
+===============================================
+
+✅ FONCTIONNALITÉS INCLUSES :
+
+✓ Portail Client (Upload documents, Messagerie)
+✓ Pilotage Cabinet (Tâches, Workflows, KPI)
+✓ Veille Réglementaire (Articles, Alertes)
+✓ Sécurité (CSRF, XSS, Anti-brute force)
+✓ Notifications email automatiques
+✓ Design responsive mobile-first
+✓ 100% en français
+
+===============================================
+
+📚 DOCUMENTATION COMPLÈTE : README_FR.md
+
+💡 SUPPORT : Consulter README_FR.md pour le dépannage
+
+===============================================
